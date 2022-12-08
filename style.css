@@ -1,0 +1,50 @@
+.fa-eye{
+    font-size: 25px;
+    color: black;  
+}
+body{
+    color: white;
+}
+#paragraphe3{
+    color: rgb(224, 244, 4);
+}
+#paragraphe4{
+    color: rgb(163, 18, 252);
+}
+#div_bg{
+    height: 100px;
+}
+input{
+    font-weight: bold;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #noter {
+      -webkit-appearance: none;
+      background-color: #f40000;
+    }
+    #notev{
+        -webkit-appearance: none;
+        background-color: #29f400;
+    }
+    #noteb{
+        -webkit-appearance: none;
+      background-color: #0d89f5;
+    }
+    #opacite{
+        -webkit-appearance: none;
+      background-color: #a2a6a9;
+    }
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 17px;
+        -webkit-appearance: none;
+        color: #ffffff;
+      }
+      input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        margin-top: auto;
+        -webkit-appearance: none;
+        height: 17px;
+        cursor: ew-resize;
+        background: #ffffff;
+      }
+}
